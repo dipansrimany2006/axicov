@@ -1,7 +1,10 @@
-import type { NextConfig } from "next";
+// next.config.ts
+import { NextConfig } from 'next'
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+const config: NextConfig = {
+  images: {
+    domains: ['hebbkx1anhila5yf.public.blob.vercel-storage.com'],
+  },
+}
 
-export default nextConfig;
+export default config
